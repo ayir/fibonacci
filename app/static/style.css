@@ -1,0 +1,137 @@
+@import url(http://fonts.googleapis.com/css?family=Cabin:400);
+
+.fibonacci {
+    background: #0000;
+    min-height: 100%;
+    min-width: 100%;
+}
+
+
+.fibonacci .heading{
+    margin:0 auto;
+    padding-top:100px;
+    font-family: 'Cabin', helvetica, arial, sans-serif;
+    font-size: 63px;
+    text-align:center;
+    width:600px;
+    font-weight: 400;
+}
+.fibonacci .container {
+    margin: 0 auto;
+    text-align: center;
+    width: 370px;
+    padding-top: 200px;
+}
+
+.fibonacci:before,
+.fibonacci:after {
+    content: '';
+    height: 1px;
+    left: 50%;
+    margin: 0 0 0 -400px;
+    position: absolute;
+    display: block;
+    width: 800px;
+}
+
+.fibonacci:before {
+    background: #444;
+    background: linear-gradient(left, #151515, #444, #151515);
+    top: 299px;
+}
+
+.fibonacci:after {
+    background: #000;
+    background: linear-gradient(left, #151515, #000, #151515);
+    top: 300px;
+}
+
+.fibonacci form {
+    background: #08080814;
+    display: inline-block;
+    font-size: 0px;
+    border: 1px solid #efe;
+    padding: 30px;
+    border-radius: 5px;
+    position: relative;
+    z-index: 1;
+}
+
+.fibonacci input {
+    background: #222;
+    background: linear-gradient(#333, #222);
+    color: #888;
+    display: block;
+    float: left;
+     margin: 0;
+    border: 1px solid #444;
+    border-radius: 5px;
+    font-family: helvetica, arial, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    height: 50px;
+    padding: 10 10px;
+    text-shadow: 0 -1px 0 #000;
+    width: 400px;
+}
+
+.ie .fibonacci input {
+    line-height: 40px;
+}
+
+.fibonacci input::-webkit-input-placeholder {
+   color: #fff;
+}
+
+.fibonacci input:-moz-placeholder {
+   color: #fff;
+}
+
+.fibonacci input:focus {
+    border-color: #09bae0;
+    box-shadow: 0 0 5px rgba(0,255,0,.2), inset 0 0 5px rgba(0,255,0,.1), 0 2px 0 #000;
+    outline: none;
+}
+
+
+
+.fibonacci button {
+    background: #222;
+    background: linear-gradient(#333, #222);
+    box-sizing: content-box;
+    border: 1px solid #444;
+    color: #fff;
+    display: block;
+    font-family: helvetica, arial, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    height: 30px;
+    border-left-color: #000;
+    border-radius: 5px;
+    padding: 10px 10 px;
+    position: relative;
+    text-shadow: 0 -1px 0 #000;
+    width: 100px;
+    margin-left :130px;
+    line-height: 40px;
+    margin-top:70px;
+}
+
+.fibonacci button:hover,
+.fibonacci button:focus {
+    border-color: #09bae0;
+}
+
+
+
+.fibonacci p {
+    display: inline-block;
+     font-family:helvetica, arial, sans-serif;
+    font-size: 15px;
+    color: #000;
+    font-weight: 400;
+    text-shadow: 0 -1px 0 #000;
+}
+
+
+}
